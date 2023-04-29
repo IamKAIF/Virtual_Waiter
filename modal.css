@@ -1,0 +1,265 @@
+.container {
+  position: relative;
+  width: 22.5rem;
+  height: 50rem;
+  background: #FFFFFF;
+  border-radius: 1.25rem;
+ }
+ 
+ 
+ .navbar i {
+   
+  position: absolute;
+  width: 1.25rem;
+  height: 1.875rem;
+  left: 1.56rem;
+  top: 2.94rem;
+  
+    }
+  
+      
+   img {
+
+  position: absolute;
+  width: 20.44rem;
+  height: 20.44rem;
+  left: 1rem;
+  top: 7.88rem;
+  
+  border-radius: 3.125rem;
+
+  }
+    
+   
+  .icons .fa-circle-dot{
+     position: absolute;
+    width: 12.5px;
+    height: 12.5px;
+    left: 31.25px;
+    top: 505.25px;
+    color:#1F9653;;
+       
+      }
+    
+    
+  .icons .fa-star{
+     
+    position: absolute;
+    left: 3.8rem;
+    right: 8.33%;
+    top: 31.56rem;
+    bottom: 0.033rem;
+  
+    color: #F77F00;
+    
+       
+     } 
+     
+     
+    
+    #case-total{
+    position: absolute;
+    width: 2.087rem;
+    height: 1.438rem;
+    left: 5.25rem;
+    top: 31.56rem;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.06rem;
+    line-height: 1.31rem;
+    
+    color: #F77F00;
+    
+      }
+
+  
+  
+  
+    .row:last-child {
+  
+    position: absolute;
+    width: 90px;
+    height: 55px;
+    left: 255px;
+    top: 539px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  
+    }
+  
+    
+    .row:first-child {
+  
+      position: absolute;
+      width: 13.688rem;
+      height: 2.688rem;
+      left: 2.188rem;
+      top: 33.688rem;
+      
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 1.875rem;
+      line-height: 2.188rem;
+      letter-spacing: 0.05em;
+      
+      color: #000000;
+  
+    }  
+  
+  
+  
+    .info p{
+     
+    position: absolute;
+    width: 18.75rem;
+    height: 3.5rem;
+    left: 1.563rem;
+    top: 36.813rem;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    text-align: justify;
+    letter-spacing: 0.05em;
+  
+    color: #000000;
+  
+  
+  } 
+  
+    
+    
+    .quantity {
+    
+    position: absolute;
+    width: 135px;
+    height: 47px;
+    left: 112px;
+    top: 690px; 
+    
+  
+    background: #FFD542;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    }
+    
+    
+    
+  
+  .btn{
+  position: absolute;
+  width: 92.3px;
+  height: 42.15px;
+  left: 132.59px;
+  top: 695px;
+  }
+  
+  
+  
+  #decrement{
+  position: absolute;
+  width: 16.39px;
+  height: 42.15px;
+  left: 140px;
+  top: 695px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: #FFFFFF;
+  }
+  
+
+  .dec{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 28.1px;
+    height: 28.1px;
+    left: 132.59px;
+    top: 699.65px;
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 6px; 
+  }
+  
+
+  #quant{
+    position: absolute;
+  width: 9.37px;
+  height: 22.24px;
+  left: 174.88px;
+  top: 704.16px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+  }
+
+  
+  
+  #increment{
+  position: absolute;
+  width: 22.24px;
+  height: 39.81px;
+  left: 202px;
+  top: 695px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 36px;
+  
+  color: #FFFFFF;
+  }
+  
+
+  .inc{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 28.1px;
+    height: 28.1px;
+    left: 196.78px;
+    top: 699.65px;
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+  }   
+    
+
+  
+    
+
+  @media screen and (max-width:576px) {
+    .container {
+      position: relative;
+      max-width: 22.5rem;
+      max-height: 50rem;
+      background: #FFFFFF;
+      border-radius: 1.25rem;
+     }
+    
+  }
+
+  
+
