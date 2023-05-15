@@ -21,8 +21,8 @@ The main objective of this project is to come up with a solution for the followi
 (d) NodeJS
 (e) Express
 (f) UI / UX : Figma
-(g) Database : MongoDB / MySQL
-(h) IDE : Visual Studio Code
+(g) Database : MongoDB
+
 
 
 
