@@ -35,7 +35,7 @@ Customer-side involve displaying and ordering from restaurant's menu.
 
 ## Owner Side:
 
-Owner-side include orders list and add/edit option for menu.
+Owner-side involve login/register, orders list and add/edit option for menu.
 
 ### Login/Register:
 ![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/d79982f7-a6f6-429e-ad5f-b1e1ebd2898f)
