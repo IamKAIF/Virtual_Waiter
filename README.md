@@ -26,14 +26,30 @@ The main objective of this project is to come up with a solution for the followi
 
 
 
-## Front-End:(Ongoing)
+## Customer-Owner:
 
-Used Figma to design the customer-side website to display the menu card of the restaurant.
+Customer-side involve displaying the menu of the restaurant and taking orders.
 
-![IMG_20230323_212054_622](https://user-images.githubusercontent.com/104121811/232708854-2441dea2-88a2-4c40-8d8a-bcbcbf493204.png)
+![Menu](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/4348ee7f-eea4-4ffb-baeb-1404920f4166)
+![Item details](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/707ef9b9-1160-4de1-9d52-a42c5b3b6074)
+![Checkout](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/9d7caac1-8558-4889-afa9-51e6bcf4b526)
+![Order Status](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/8dabc0bc-9885-4342-b0b1-98f81495030e)
 
+Owner-side include list of orders and add/edit menu items.
 
+# Login/Register:
+![Login](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/ffdc66fc-6682-4e6c-a358-f71170b55770)
+![Register](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/9297fa95-95be-481b-86cf-164abc197333)
 
-## Back-End:(Ongoing)
+# Orders:
+![Orders](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/75b063a7-c6db-4116-a55a-e8edda6bf40c)
+![Order List](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/3022370e-589e-4a39-bc07-511f59fecd2a)
+![Order Details](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/c5415ab8-e756-4b38-bd7e-80a8b0f0ab75)
 
-Working on the message transfer part to the owner when the customer orders food.
+# Add/Edit Item:
+![Add Item](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/ade2e0c0-98ac-463c-a439-19617c248bbb)
+![Add Item Details](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/bbc7ae1e-6120-4a0a-9506-822258565089)
+![Edit Menu](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/6a802b0b-3cd5-42ed-ad35-63f0038405dd)
+![Edit Menu - Items](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/c30eb5ae-8ed2-4203-a4d3-5a9f46994bb1)
+![Edit Menu Details](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/c3a25a79-11a5-41f8-9266-99b009091f71)
+
