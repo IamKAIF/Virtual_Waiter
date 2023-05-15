@@ -28,7 +28,7 @@ The main objective of this project is to come up with a solution for the followi
 
 ## Customer Side:
 
-Customer-side involve display and ordering from restaurant's menu.
+Customer-side involve displaying and ordering from restaurant's menu.
 
 
 ![Screenshot 2023-05-15 162457](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/09df7fd5-70b7-44f6-9eac-6fbbea71b27a)
