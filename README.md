@@ -32,7 +32,7 @@ Customer-side involve displaying the menu of the restaurant and taking orders.
 
 ![Screenshot 2023-05-15 162457](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/09df7fd5-70b7-44f6-9eac-6fbbea71b27a)
 
-## Customer Side:
+## Owner Side:
 
 Owner-side include list of orders and add/edit menu items.
 
