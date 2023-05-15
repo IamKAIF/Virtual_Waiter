@@ -26,12 +26,13 @@ The main objective of this project is to come up with a solution for the followi
 
 
 
-## Customer - Owner Sides:
+## Customer Side:
 
 Customer-side involve displaying the menu of the restaurant and taking orders.
 
 ![Screenshot 2023-05-15 162457](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/09df7fd5-70b7-44f6-9eac-6fbbea71b27a)
 
+## Customer Side:
 
 Owner-side include list of orders and add/edit menu items.
 
