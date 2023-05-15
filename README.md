@@ -35,11 +35,11 @@ Customer-side involve displaying the menu of the restaurant and taking orders.
 
 Owner-side include list of orders and add/edit menu items.
 
-# Login/Register:
+### Login/Register:
 ![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/589312aa-8973-4f32-9ba4-5154b6ecb589)
 
-# Orders:
+### Orders:
 ![Screenshot 2023-05-15 162532](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/8ba63187-4279-414d-81f5-8c462a63d863)
 
-# Add/Edit Item:
+### Add/Edit Item:
 ![Screenshot 2023-05-15 162618](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/a06ecb3c-5a52-4be7-a83e-6d4a3be2c8c6)
