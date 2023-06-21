@@ -6,7 +6,7 @@ Virtual waiter is a system for a restaurant where the customers can visualize an
 
 ## Objective:
 
-The main objective of this project is to come up with a solution for the following problems:
+The main objective of this project is to solve the following problems:
 1. Requirement of a waiter in a restaurant,
 2. Customers not able to comprehend every food item by just seeing the name on the menu,
 3. Customers waiting to order as waiter is taking orders from other customers.
