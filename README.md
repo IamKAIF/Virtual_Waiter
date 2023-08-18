@@ -31,17 +31,24 @@ The main objective of this project is to solve the following problems:
 Customer-side involve displaying and ordering from restaurant's menu.
 
 
-![Screenshot 2023-05-15 162457](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/09df7fd5-70b7-44f6-9eac-6fbbea71b27a)
+![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/731225d5-966e-4185-a562-5881970acf8d)
+
 
 ## Owner Side:
 
 Owner-side involve login/register, orders list and add/edit option for menu.
 
 ### Login/Register:
-![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/d79982f7-a6f6-429e-ad5f-b1e1ebd2898f)
+![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/68514960-b6f8-4f1e-bbdc-088e1c9cb00e)
+
 
 ### Orders:
-![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/3305608a-7b75-494a-bc34-42560c709e39)
+![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/4d3addce-4812-4bf4-be68-940f5ae7337f)
+
 
 ### Add/Edit Item:
-![Screenshot 2023-05-15 162618](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/a06ecb3c-5a52-4be7-a83e-6d4a3be2c8c6)
+![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/7031f424-cd3a-4556-a895-4896c07d42da)
+
+
+### Menu QR Code:
+![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/9ecc793b-a9f3-4c26-b475-39afbd6815aa)
