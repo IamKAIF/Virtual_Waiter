@@ -1,0 +1,78 @@
+.ordes-heading{
+    margin-left: 10px;
+  margin-bottom: 20px;
+  font-family: 'Mirza';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+}
+.orderNameDiv{    
+    padding-top: 10px;
+    height: 60px;
+}
+#product-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+#product-img1 {
+    width: 50px;
+    height: 49px;
+    border-radius: 20%;
+}
+
+.col .bg-btn {
+    /* background-color: #FFFFFF; */
+    /* border: 1px solid black; */
+}
+
+.card {
+    border:none!important;
+    border-radius: 10px!important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+   
+}
+
+#ordername {
+    display: flex;
+    justify-content: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 4px;
+}
+.text-muted{
+    font-weight: 400!important;
+    font-size: 14px!important;
+    line-height: 17px!important;
+    color: #797B7E!important;
+}
+
+.pt {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.tableNo{
+    position: absolute;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 24px;
+    background: linear-gradient(180deg, #FBFBFB 26%, #e6c037f0 65.62%), #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(0.5deg);
+}
+.btn-outline-danger:hover {
+    color: var(--bs-btn-hover-color)!important;
+    background-color: #DB79A9!important;
+    border-color: #DB79A9!important;
+}
+.btn-outline-danger:hover img{
+    filter: invert(100%) sepia(1%) saturate(1497%) hue-rotate(135deg) brightness(1134%) contrast(101%);
+}

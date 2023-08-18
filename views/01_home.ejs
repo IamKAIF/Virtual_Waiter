@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="01_home.css">
+	<link rel="stylesheet"  href="hamburger.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Mirza' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+
+</head>  
+<body>
+<div class="container">
+	<div class="top-header">
+    <div class="menu-icon">
+        <nav role="navigation">
+			<div id="menuToggle">
+			  
+			  <input type="checkbox" />
+			  
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			  
+			  <ul id="menu">
+				<div class="nav-heading">Vir<p>tual Wai</p>ter</div>
+				<a href="#"><li class="list1"><img width="96" height="96" src="https://img.icons8.com/external-tanah-basah-detailed-outline-tanah-basah/96/000000/external-feedback-user-interface-tanah-basah-detailed-outline-tanah-basah.png" alt="external-feedback-user-interface-tanah-basah-detailed-outline-tanah-basah"/>FEEDBACK</li></a>
+				<a href="#"><li class="log"><img src="https://img.icons8.com/external-those-icons-fill-those-icons/96/000000/external-Logout-interface-those-icons-fill-those-icons.png"/>LOGOUT</li></a>
+				<!-- <a href="#"><li class="log"><img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/000000/external-web-secure-session-sign-out-internet-logoff-login-regular-tal-revivo.png"/>LOGIN</li></a> -->
+			</ul>
+			</div>
+		  </nav>
+    <a href="/cart" class="shopping-button">
+        <div class="bag-val">
+			<span id="cartCunter">0</span>
+		</div>
+        <img src="https://res.cloudinary.com/dwaxnnk8t/image/upload/v1683467890/cart-icons_maw3zl.png" class="cart-icon" alt="">
+    </a></div>
+
+
+
+    <h1 class="menu">Menu</h1>	
+	<button class="search"><input type="text" class="food-search" placeholder="Search food here"><i class="fas fa-search"></i></button>
+	
+	
+	
+
+
+
+    <div class="food-list">
+
+		<div class="food-row">
+			<a href="#snacks"><img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/mcdonalds-french-fries.png" alt="mcdonalds-french-fries"/></a>
+			<h>Snacks</h>
+		</div>
+		<div class="food-row" >
+			<a href="#drink"><img width="94" height="94" src="https://res.cloudinary.com/deawpg6o7/image/upload/v1683978195/food-and-beverage-3d-icon-cooking-food-vegetable-restaurant-and-cafe-3d-render-illustration-vector_rjocpe.png" alt="cola"/></a>
+			<h>Drinks</h>
+		</div>
+		<div class="food-row">
+			<a href="#meals"><img width="94" height="94" src="https://res.cloudinary.com/deawpg6o7/image/upload/v1683982295/ramen-4622131-3846926_cxoean.png" alt="noodles"/></a>
+			<h>Meals</h>
+		</div>
+		
+		<div class="food-row" >
+			<a href="#dessert"><img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/dessert.png" alt="dessert"/></a>
+			<h>Desserts</h>           
+		</div>
+		<div class="food-row" >
+			<a href="#starter"><img width="94" height="94" src="https://res.cloudinary.com/deawpg6o7/image/upload/v1683980676/6153658_vmiavu.png" alt="sushi"/></a>
+			<h>Starters</h>
+		</div>
+	</div>
+</div>  
+
+
+	<!------------- Category 1: Burger----------------- -->
+	<div>
+		<% if(snacks.length > 0){ %>
+		<div class="food-item" id="snacks">Snacks</div><%}%>
+		<% snacks.forEach(function(item) { %>
+			<div class="food" > 
+				<div class="img-dtl">
+			<img src="<%=item.image.url%>" data-bs-toggle="modal" data-bs-target="#modal-container-<%= item._id %>">
+			<div class="descript"> 
+				<h><%=item.name%></h>
+				<p>Rs <%=item.price%></p>
+			</div>	
+		</div>
+		<div class="quantity">
+		
+				<i class="fa fa-star fa-xs">
+				<span id="rate"><%=item.rating%></span></i>
+
+			<div class=" quant">	
+			
+			<button id="decrement">-</button>
+			
+            <div class="inp">
+				<input  class="num" type="tel" id="count-input" name="count-input" value="0">
+			</div>
+			<button class="add-to-cart" data-orders="<%=JSON.stringify(item) %>" id="increment" >+</button>
+		</div>
+	</div>
+</div>
+<%})%>	
+		<div class="food-item" id="drink">Drinks</div>
+		<% drinks.forEach(function(item) { %>
+			<div class="food" > 
+				<div class="img-dtl">
+			<img src="<%=item.image.url%>" data-bs-toggle="modal" data-bs-target="#modal-container-<%= item._id %>">
+			<div class="descript"> 
+				<h><%= item.name%></h>
+				<p>Rs <%=item.price%></p>
+			</div>	
+		</div>
+		<div class="quantity">
+		
+				<i class="fa fa-star fa-xs">
+				<span id="rate"><%=item.rating%></span></i>
+
+			<div class=" quant">	
+			
+			<button id="decrement">-</button>
+			
+            <div class="inp">
+				<input type="tel" id="count-input" name="count-input" value="0">
+			</div>
+
+			<button class="add-to-cart" data-pizza="<%=JSON.stringify(item)%>"  id="increment">+</button>
+			
+			
+		</div>
+	</div>
+</div>
+<%})%>	
+		<div class="food-item" id="meals">Meals</div>
+		<% meals.forEach(function(item) { %>
+			<div class="food"> 
+				<div class="img-dtl">
+			<img src="<%=item.image.url%>" data-bs-toggle="modal" data-bs-target="#modal-container-<%= item._id %>">
+			<div class="descript"> 
+				<h><%= item.name%></h>
+				<p>Rs <%=item.price%></p>
+			</div>	
+		</div>
+		<div class="quantity">
+		
+				<i class="fa fa-star fa-xs">
+				<span id="rate"><%=item.rating%></span></i>
+
+			<div class=" quant">	
+			
+			<button id="decrement">-</button>
+			
+            <div class="inp">
+				<input type="tel" id="count-input" name="count-input" value="0">
+			</div>
+
+			<button id="increment" >+</button>
+			
+			
+		</div>
+	</div>
+</div>
+<%})%>	
+
+
+		<div class="food-item" id="dessert">Desserts</div>
+		<% desserts.forEach(function(item) { %>
+			<div class="food" > 
+				<div class="img-dtl">
+			<img src="<%=item.image.url%>" data-bs-toggle="modal" data-bs-target="#modal-container-<%= item._id %>">
+			<div class="descript"> 
+				<h><%= item.name%></h>
+				<p>Rs <%=item.price%></p>
+			</div>	
+		</div>
+		<div class="quantity">
+		
+				<i class="fa fa-star fa-xs">
+				<span id="rate"><%=item.rating%></span></i>
+
+			<div class=" quant">	
+			
+			<button id="decrement">-</button>
+			
+            <div class="inp">
+				<input type="tel" id="count-input" name="count-input" value="0">
+			</div>
+
+			<button id="increment"  >+</button>
+			
+			
+		</div>
+	</div>
+</div>
+<%})%>	
+		<div class="food-item" id="starter">Starters</div>
+		<% starters.forEach(function(item) { %>
+			<div class="food" > 
+				<div class="img-dtl">
+			<img src="<%=item.image.url%>" data-bs-toggle="modal" data-bs-target="#modal-container-<%= item._id %>">
+			<div class="descript"> 
+				<h><%= item.name%></h>
+				<p>Rs <%=item.price%></p>
+			</div>	
+		</div>
+		<div class="quantity">
+		
+				<i class="fa fa-star fa-xs">
+				<span id="rate"><%=item.rating%></span></i>
+
+			<div class=" quant">	
+			
+			<button id="decrement">-</button>
+			
+            <div class="inp">
+				<input type="tel" id="count-input" name="count-input" value="0">
+			</div>
+
+			<button id="increment">+</button>
+			
+			
+		</div>
+	</div>
+</div>
+<%})%>	
+</div>
+
+
+<!-- ------------------Modal------------------ -->
+
+
+
+<!-- Modal -->
+<% items.forEach(function(item) { %>
+<div class="modal fade" id="modal-container-<%= item._id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<!-- <div class="modal-header"> -->
+			  <!-- <h1 class="modal-title fs-5" id="modal-container">Modal title</h1> -->
+			  
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	<!-- </div> -->
+		<div class="modal-body">
+
+   
+		
+		
+					<!-- <div class="product"> -->
+		
+						<img src="<%=item.image.url%>" data-bs-toggle="modal" data-bs-target="#modal-container-<%= item._id %>">
+		
+		
+						<div class="modal-icon"> 
+							<i class="fa-sharp fa-regular fa-circle-dot"></i>
+							<i class="fa fa-star "></i>
+							<span id="rate1">4.4</span>
+						</div>
+
+						<div class=info>
+						<div class="coloumn">
+							<div class="row1"><%=item.name%></div>
+							<div class="row2"><p>₹</p> 246</div>
+						</div>	
+						  
+						
+						<p>The Big Mac is a hamburger consisting of two (45.4 g) potato patties, Iceberg lettuce, American cheese, pickles, chopped onions and special Mac Sauce.
+						</p>         
+					 </div> 
+		  
+		
+					<div class="quantity1">
+							
+						<button id="decrement">-</button>
+		
+					<div class="inp">
+						<input type="tel" id="count-input" name="count-input" value="0">
+					</div>
+		
+					<button id="increment">+</button>
+		
+					</div>
+						
+							
+		
+
+	  	</div>
+	</div>
+	</div>
+</div>
+<%})%>	
+</div>
+			
+						
+		
+
+<!-- --------------food-search------------- -->
+
+<script>				  
+$(document).ready(function() {
+	// Define the search function
+	function searchFood() {
+  var query = $('.food-search').val().toLowerCase();
+  var resultsFound = false;
+  $('.food').each(function() {
+    var name = $(this).find('.descript > h').text().toLowerCase();
+    var quantity = parseInt($(this).find('.inp > input').val());
+    if (name.includes(query) || quantity > 0) {
+      $(this).show();
+      resultsFound = true;
+    } else {
+      $(this).hide();
+    }
+  });
+  if (!resultsFound) {
+    $('.no-items').remove();
+    var message = '<div class="no-items" style="text-align:center;margin-top:20px;">No items found.</div>';
+    $('.food-item').after(message);
+  } else {
+    $('.no-items').remove();
+  }
+}
+
+
+  
+	// Call the search function when the search button is clicked or when the search bar input changes
+	$('.search').on('click', function() {
+	  searchFood();
+	});
+  
+	$('.food-search').on('input', function() {
+	  searchFood();
+	});
+  });
+  const foods = document.querySelectorAll('.food');
+
+// Check if there are any 'food' elements
+if (foods.length > 0) {
+  // If there are, show the 'Snacks' text
+  document.querySelector('.food-item').style.display = 'block';
+} else {
+  // If there aren't, hide the 'Snacks' text
+  document.querySelector('.food-item').style.display = 'none';
+}
+
+  </script>
+  
+
+
+
+
+
+
+<!-- -------for buttons------------ -->
+
+<script>
+// const incrementBtns = document.querySelectorAll('#increment');
+// const decrementBtns = document.querySelectorAll('#decrement');
+// num=document.querySelector('.num')
+
+// incrementBtns.forEach(btn => {
+//   btn.addEventListener('click', () =>{
+// 	const inputactiveField = btn.parentNode.querySelector('#count-input');
+//     inputactiveField.value = parseInt(inputField.value) + 1;
+//   });
+// });
+// let a=0;
+// incrementBtns.addEventListener("click",()=>{
+// 	a++;
+// 	a=(a<10) ? "0" +  a : a;
+// 	num.innerText=a;
+// 	console.log(a)
+// })
+
+// decrementBtns.forEach(btn => {
+//   btn.addEventListener('click', () => {
+//     const inputField = btn.parentNode.querySelector('#count-input');
+//     if (inputField.value > 0) {
+//       inputField.value = parseInt(inputField.value) - 1;
+//     }
+//   });
+// });
+
+// add to cart
+let addToCart=document.querySelectorAll('.add-to-cart')
+let cartCounter=document.querySelector('#cartCunter')  
+
+
+function updateCart(orders){
+	axios.post('/update-cart',orders).then(res=>{
+		console.log(res.data)
+		cartCounter.innerText=res.data.totalQty
+	})	
+}
+
+
+addToCart.forEach((btn)=>{
+	btn.addEventListener('click',(e)=>{
+		// console.log(e)
+		let orders=JSON.parse(btn.dataset.orders)
+		updateCart(orders)
+		// console.log(orders)
+	})
+})  
+
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" integrity="sha512-lOrm9FgT1LKOJRUXF3tp6QaMorJftUjowOWiDcG5GFZ/q7ukof19V0HKx/GWzXCdt9zYju3/KhBNdCLzK8b90Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+	

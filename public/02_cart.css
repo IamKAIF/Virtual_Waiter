@@ -1,0 +1,132 @@
+.cart-heading{
+  margin-left: 12px;
+  margin-bottom: 10px;
+  font-family: 'Mirza';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+}
+.select {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #003049;
+  margin: 30px 12px;
+}
+.quantity2 {
+  height: 55px;
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px #E6E6E6;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12px;
+}
+.quantity2 #decrement, .quantity2 #increment {
+  margin:auto
+}
+.inp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count-input2 {
+  width:15pc;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #003049;
+  border: none;
+  text-align: center;
+}
+
+.total {
+  width: 86%;
+  display: flex;
+  margin: 0 12px;
+  position: absolute;
+  bottom: 3pc;
+  justify-content: space-between;
+}
+.total a{
+  text-decoration: none;
+}
+
+.subtotal {
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #003049;
+}
+
+.total .price {
+  width: 97px;
+  height: 34px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #003049;
+}
+
+.button {
+  width: 135px;
+  height: 47px;
+  cursor: pointer;
+  background: #FFD542;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+#btn {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 80px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #FFD542;
+  color: #FFFFFF;
+}
+.about-status{
+  margin-top: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #003049;
+}
+.about-status span{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 70px;
+  border: 1px solid #87B6A1;
+  border-radius: 10px;
+  color:#87B6A1;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+.order-status{
+  width: 86%;
+  margin: 0 12px;
+  position: absolute;
+  bottom: 1.5pc; 
+}

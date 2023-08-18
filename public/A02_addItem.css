@@ -1,0 +1,176 @@
+.container {
+  background-color: #F5F5F5;
+  /* margin: 10% 0% 10% 8%; */
+}
+
+form {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-image {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 330px;
+  height: 330px;
+  border-radius: 20%;
+  margin: 32px 0 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-indent: 33%;
+}
+
+input[type=file]::file-selector-button {
+  display: none;
+  color: transparent;
+}
+input[type=file]{
+  color: transparent;
+}
+
+.form-group {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.form-control {
+  width: 90% !important;
+  font-size: 12px;
+}
+
+.food-name {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#food-name, #price {
+  box-sizing: border-box;
+  margin: 3% 0%;
+  width: 300px;
+  height: 36px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFEFA;
+  border: 1px solid #FFD542;
+  border-radius: 10px;
+}
+
+.food-price {
+  font-size: 15px;
+}
+
+#description {
+  margin: 3% 0%;
+  box-sizing: border-box;
+  width: 300px;
+  height: 135px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFDF8;
+  border: 1px solid #FFD542;
+  border-radius: 10px;
+}
+
+#ratings, #category {
+  margin: 3% 0%;
+  box-sizing: border-box;
+  width: 300px;
+  height: 36px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFEFA;
+  border: 1px solid #FFD542;
+  border-radius: 10px;
+}
+
+.form-group div, .form-group input, .form-group textarea, .form-group #category {
+  margin-top: 3%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.form-gp-category select#category option:disabled{
+  color:#999898!important;
+}
+
+.btn-secondary {
+  margin: 3% 0%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  border-left: none;
+}
+
+.add-item-btn {
+  width: 135px;
+  height: 47px;
+  margin: 5% 20% 5% 25%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #FFD542;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: none;
+}
+.foodItems {
+  display: flex;
+}
+.form-group .foodTypeV,.form-group .foodTypeN{
+  font-size: 12px;
+  display: flex;
+  padding: 8px 15px;
+  height: 35px;
+  background: transparent;
+  color: #000;
+  border-radius: 20px;
+  border: 1px solid #FFD542;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form-group .foodTypeV{
+  width: 90px;
+  margin-right: 15px;
+}
+.form-group .foodTypeN{
+  width: 130px;
+}
+.form-group .foodTypeV::before, .form-group .foodTypeN::before{
+  content: '';
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+  .form-group .foodTypeV::before{
+    background: #1F9653;
+  }
+  .form-group .foodTypeN::before{
+    background: #FF0000;
+  }
+  .editItem-btns{
+    display: flex;
+  }
+  .editItem-btns .add-item-btn{
+    margin: 42px 16px 10px 16px;
+  }
+  .editItem-btns .dlt-btn{
+    background: #FF3A3A;
+  }
+  .form-group input::placeholder, .form-group textarea::placeholder{
+    color: #999898;
+  }
