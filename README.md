@@ -31,7 +31,8 @@ The main objective of this project is to solve the following problems:
 Customer-side involve displaying and ordering from restaurant's menu.
 
 
-![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/731225d5-966e-4185-a562-5881970acf8d)
+![image](https://github.com/IamKAIF/Virtual_Waiter/assets/104121811/0225b824-4e1e-4ede-9f50-ca776c667409)
+
 
 
 ## Owner Side:
